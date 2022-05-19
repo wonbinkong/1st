@@ -1,0 +1,128 @@
+@import url("https://use.typekit.net/frr8ppr.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.box_size{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+.box1{background-color: #fff;}
+.box2{background-color: #F1DF52;}
+.box3{background-color: #DCDBE1;}
+.box4{background-image: url(img/c_05.png);
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-color: black;
+}
+
+.wrap{
+    position: absolute;
+    width: 1100px;
+    height: 900px;
+    border: 0px solid red;
+}
+
+.b1_img01{
+  top: 79px;
+  position: inherit;
+
+}
+.b1_img02{
+  position: inherit;
+  top: 79px;
+  right: 0px
+}
+.b1_cont{
+  bottom: 0px;
+  position:inherit;
+  border: 1px solid blue;
+  width: 260px;
+  left: 272px;
+  bottom: 113px;
+  text-align: right;
+  font-family:'Lust_script',sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color:black;
+  letter-spacing: -0.06em;
+  line-height: 1.4;
+}
+
+.box2 > .wrap{
+  background-image: url('img/c_03.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.b2_cont{
+  position: inherit;
+  top: 77px;
+  text-align: left;
+  font-family:'Lust_script',sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color:black;
+  letter-spacing: -0.06em;
+  line-height: 1.4;
+}
+.box3 > .wrap{
+  background-image: url('img/c_04.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+.b3_cont{
+  position: inherit;
+  top: 52px;
+  text-align: left;
+  font-family:'Lust_script',sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color:black;
+  letter-spacing: -0.06em;
+  line-height: 1.4;
+}
+.b4{
+  position: inherit;
+  border: 0px solid blue;
+  width: 100%;
+}
+.b4_cont01{
+  top:61px;
+  display: flex;
+  justify-content: center;
+}
+.b4_cont02{
+  top: 637px;
+  font-family:'Lust_script',sans-serif;
+  font-weight: medium;
+  font-size: 24px;
+  color:white;
+  letter-spacing: -0.06em;
+  line-height: 1.4;
+  text-align: center;
+}
+.b4_cont03{
+  top: 732px;
+  font-family:'Lust_script',sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  color:white;
+  letter-spacing: -0.06em;
+  line-height: 2.1;
+  text-align: center;
+}
+.b4_cont04{
+  top: 796px;
+  display: flex;
+  justify-content: center;
+}
+.b4_cont04 > a > img:hover{
+  filter: drop-shadow(0px 0px 8px #fff);
+}
